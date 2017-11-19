@@ -10,13 +10,15 @@
     font-size: 3rem;
     line-height: 1;
   }
-
   &__title {
     margin-top: 0;
     margin-bottom: 27px;
     font-family: $ff-main-light;
   }
-
+  @media(max-width: 650px) {
+    padding: 100px 20px;
+    min-height: inherit;
+  }
   .button--upper {
     padding: 21px 41px;
     border-radius: 8px;

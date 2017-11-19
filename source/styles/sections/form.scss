@@ -2,6 +2,9 @@
   padding: 100px 0 110px 0;
   color: #ffffff;
   background-color: #1287bf;
+  @media(max-width: 650px) {
+    padding: 40px 0;
+  }
   .title {
     margin-bottom: 12px;
   }
@@ -36,6 +39,10 @@
   color: #828282;
   text-align: center;
   background-color: #ffffff;
+  @media(max-width: 650px) {
+    width: 90%;
+    padding: 30px;
+  }
   &-container {
     padding-top: 30px;
   }
@@ -76,7 +83,7 @@
     margin-bottom: 36px;
   }
   &__input {
-    width: 76%;
+    width: 90%;
     display: block;
     margin: auto auto 8px auto;
     padding: 18px 20px;

@@ -12,6 +12,11 @@
     color: $dark-gray;
     text-transform: capitalize;
     transition: .3s;
+    @media(max-width: 360px) {
+      display: block;
+      padding: 5px;
+      text-align: center;
+    }
     &:hover,
     &--active {
       color: $red;
@@ -25,9 +30,15 @@
       border-radius: 50%;
       background: $dark-gray;
       margin-left: 15px;
+      @media(max-width: 450px) {
+        display: none;
+      }
     }
     &:last-child:after {
       display: none;
     }
+  }
+  @media (max-width: 900px) {
+    margin-bottom: 25px;
   }
 }
