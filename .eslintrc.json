@@ -1,0 +1,33 @@
+{
+    "globals":
+    {
+        // Put things like jQuery, etc
+        "jQuery": true,
+        "$": true
+    },
+    "env":
+    {
+        "browser": true,
+        "node": true
+    },
+    "extends": ["airbnb-standart"],
+    "rules":
+    {
+        "indent": [
+            1,
+            2
+        ],
+        "linebreak-style": [
+            1,
+            "unix"
+        ],
+        "quotes": [
+            1,
+            "single"
+        ],
+        "semi": [
+            1,
+            "always"
+        ]
+    }
+}
